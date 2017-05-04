@@ -4,3 +4,9 @@
 [submodule "shadowsocks_install"]
 	path = shadowsocks_install
 	url = https://github.com/Teddysun/shadowsocks_install.git
+[submodule "centos7"]
+	path = centos7
+	url = https://github.com/Kylinlin/centos7.git
+[submodule "lnmp"]
+	path = lnmp
+	url = https://github.com/lj2007331/lnmp.git

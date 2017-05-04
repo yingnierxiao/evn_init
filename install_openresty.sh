@@ -8,4 +8,11 @@ gpgkey=https://copr-be.cloud.fedoraproject.org/results/openresty/openresty/pubke
 enabled=1
 enabled_metadata=1
 EOF
-yum install -y openresty git readline-devel autoconf
+git submodule update --init
+yum install -y openresty readline-devel autoconf
+
+chmod +x shadowsocks_install/shadowsocks-libev.sh
+./shadowsocks_install/shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+
+chmod 500 ./kcp-server/install-kcp-server.sh
+./kcp-server/install-kcp-server.sh install

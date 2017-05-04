@@ -1,0 +1,6 @@
+[submodule "kcp-server"]
+	path = kcp-server
+	url = https://github.com/clangcn/kcp-server.git
+[submodule "shadowsocks_install"]
+	path = shadowsocks_install
+	url = https://github.com/Teddysun/shadowsocks_install.git

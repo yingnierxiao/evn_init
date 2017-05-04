@@ -10,3 +10,6 @@
 [submodule "lnmp"]
 	path = lnmp
 	url = https://github.com/lj2007331/lnmp.git
+[submodule "ssdb"]
+	path = ssdb
+	url = https://github.com/ideawu/ssdb.git

@@ -8,4 +8,4 @@ gpgkey=https://copr-be.cloud.fedoraproject.org/results/openresty/openresty/pubke
 enabled=1
 enabled_metadata=1
 EOF
-yum install -y openresty
+yum install -y openresty git readline-devel autoconf

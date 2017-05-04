@@ -9,7 +9,7 @@ enabled=1
 enabled_metadata=1
 EOF
 git submodule update --init
-yum install -y openresty readline-devel autoconf
+yum install -y openresty readline-devel autoconf wget curl
 
 chmod +x shadowsocks_install/shadowsocks-libev.sh
 ./shadowsocks_install/shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
